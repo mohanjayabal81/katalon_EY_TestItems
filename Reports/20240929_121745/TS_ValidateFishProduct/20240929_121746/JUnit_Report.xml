@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ValidateFishProduct" time="9.126" tests="1" failures="0" errors="0">
+   <testsuite name="TS_ValidateFishProduct" tests="1" failures="0" errors="0" time="9.126" skipped="0" timestamp="29-09-2024T12:17:51" hostname="WINDOWS11 - Mohan" id="Test Suites/TS_ValidateFishProduct">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\katalon_EY_TestItems\\Reports\\20240929_121745\\TS_ValidateFishProduct\\20240929_121746"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\katalon_EY_TestItems\\Reports\\20240929_121745\\TS_ValidateFishProduct\\20240929_121746\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="48c701910bd4bddcf1af198a3a74b2a8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_ValidateFishProduct" time="8.895" classname="Test Cases/TC_ValidateFishProduct" status="PASSED">
+         <system-out><![CDATA[29-09-2024T12:17:51 - [TEST_CASE][PASSED] - Test Cases/TC_ValidateFishProduct: Test Cases/TC_ValidateFishProduct
+
+29-09-2024T12:17:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-09-2024T12:17:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-09-2024T12:17:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-09-2024T12:17:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-09-2024T12:17:53 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+29-09-2024T12:17:54 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+29-09-2024T12:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+29-09-2024T12:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+29-09-2024T12:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/img")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/img' is clicked on
+
+29-09-2024T12:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/img' is clicked on
+
+29-09-2024T12:17:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is present
+
+29-09-2024T12:17:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-09-2024T12:17:57 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is present
+
+29-09-2024T12:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+29-09-2024T12:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+29-09-2024T12:17:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is present
+
+29-09-2024T12:17:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-09-2024T12:17:57 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is present
+
+29-09-2024T12:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is clicked on
+
+29-09-2024T12:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is clicked on
+
+29-09-2024T12:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+29-09-2024T12:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+29-09-2024T12:17:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is present
+
+29-09-2024T12:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+29-09-2024T12:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is present
+
+29-09-2024T12:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+29-09-2024T12:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+29-09-2024T12:17:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-09-2024T12:18:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-09-2024T12:17:51 - [TEST_SUITE][PASSED] - TS_ValidateFishProduct: Test Cases/TC_ValidateFishProduct]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
