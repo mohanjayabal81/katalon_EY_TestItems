@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ValidateFishProduct,TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:28:11,01-10-2024 19:30:03,1m - 51.479s,PASSED
+,,,,,,,
+Test Cases/TC_ValidateFishProduct,TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:28:51,01-10-2024 19:30:03,1m - 11.903s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:28:51,01-10-2024 19:29:44,53.040s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:44,01-10-2024 19:29:47,2.941s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:47,01-10-2024 19:29:50,3.103s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/img""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:50,01-10-2024 19:29:52,1.623s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01""), 0)",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:52,01-10-2024 19:29:52,0.691s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:52,01-10-2024 19:29:54,1.509s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1""), 0)",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:54,01-10-2024 19:29:55,0.651s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:55,01-10-2024 19:29:57,1.996s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:57,01-10-2024 19:29:58,1.548s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu""), 0)",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:58,01-10-2024 19:29:59,0.727s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu""))",TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:29:59,01-10-2024 19:30:01,2.495s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 130.0.0.0,,,01-10-2024 19:30:01,01-10-2024 19:30:03,1.531s,PASSED

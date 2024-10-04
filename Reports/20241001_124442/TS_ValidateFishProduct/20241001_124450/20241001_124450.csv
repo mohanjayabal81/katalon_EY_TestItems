@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ValidateFishProduct,Chrome 129.0.0.0,,,01-10-2024 12:45:00,01-10-2024 12:45:12,11.134s,PASSED
+,,,,,,,
+Test Cases/TC_ValidateFishProduct,Chrome 129.0.0.0,,,01-10-2024 12:45:01,01-10-2024 12:45:12,10.728s,PASSED
+"openBrowser("""")",Chrome 129.0.0.0,,,01-10-2024 12:45:01,01-10-2024 12:45:05,3.980s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 129.0.0.0,,,01-10-2024 12:45:05,01-10-2024 12:45:06,0.812s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store""))",Chrome 129.0.0.0,,,01-10-2024 12:45:06,01-10-2024 12:45:07,1.312s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/img""))",Chrome 129.0.0.0,,,01-10-2024 12:45:07,01-10-2024 12:45:08,0.591s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01""), 0)",Chrome 129.0.0.0,,,01-10-2024 12:45:08,01-10-2024 12:45:08,0.320s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01""))",Chrome 129.0.0.0,,,01-10-2024 12:45:08,01-10-2024 12:45:09,0.597s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1""), 0)",Chrome 129.0.0.0,,,01-10-2024 12:45:09,01-10-2024 12:45:09,0.294s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1""))",Chrome 129.0.0.0,,,01-10-2024 12:45:09,01-10-2024 12:45:10,0.798s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart""))",Chrome 129.0.0.0,,,01-10-2024 12:45:10,01-10-2024 12:45:11,0.539s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu""), 0)",Chrome 129.0.0.0,,,01-10-2024 12:45:11,01-10-2024 12:45:11,0.260s,PASSED
+"click(findTestObject(""Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu""))",Chrome 129.0.0.0,,,01-10-2024 12:45:11,01-10-2024 12:45:11,0.513s,PASSED
+closeBrowser(),Chrome 129.0.0.0,,,01-10-2024 12:45:11,01-10-2024 12:45:12,0.199s,PASSED

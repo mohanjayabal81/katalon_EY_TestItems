@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ValidateFishProduct" time="111.479" tests="1" failures="0" errors="0">
+   <testsuite name="TS_ValidateFishProduct" tests="1" failures="0" errors="0" time="111.479" skipped="0" timestamp="01-10-2024T19:28:11" hostname="WINDOWS11 - Mohan" id="Test Suites/TS_ValidateFishProduct">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\katalon_EY_TestItems\\Reports\\20241001_192754\\TS_ValidateFishProduct\\20241001_192754"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\katalon_EY_TestItems\\Reports\\20241001_192754\\TS_ValidateFishProduct\\20241001_192754\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;130.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;97275cb7-7fef-4e52-a5b3-aee7a36f200d&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;apiKey&quot;: &quot;41340229-f8ae-4b52-860d-763466756b1f&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;3a9ba571-71a5-47c7-9376-c8570f221a7b&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;97275cb7-7fef-4e52-a5b3-aee7a36f200d&quot;,&#xa;    &quot;userId&quot;: 1584481,&#xa;    &quot;organizationId&quot;: &quot;1640769&quot;,&#xa;    &quot;executionId&quot;: &quot;8769dff9-5ecd-430b-a1d3-cb852bbd4b8f&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;KatalonStudio&quot;,&#xa;    &quot;group&quot;: &quot;ef9f7fa0-e3de-49ed-b55d-b4bf487f7696&quot;,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;130.0.6683.2 (eb5bf4dd15f4ae83ebe030375ef5e642ec879323-refs/branch-heads/6683@{#5})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir7024_221378970&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;97275cb7-7fef-4e52-a5b3-aee7a36f200d&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="590fea62bbffe7f268e177f5a31f3959"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_ValidateFishProduct" time="71.903" classname="Test Cases/TC_ValidateFishProduct" status="PASSED">
+         <system-out><![CDATA[01-10-2024T19:28:51 - [TEST_CASE][PASSED] - Test Cases/TC_ValidateFishProduct: Test Cases/TC_ValidateFishProduct
+
+01-10-2024T19:28:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '130']
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1640769, usingTunnel=true}']
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-10-2024T19:28:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-10-2024T19:29:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-10-2024T19:29:44 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+01-10-2024T19:29:47 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+01-10-2024T19:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+01-10-2024T19:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+01-10-2024T19:29:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/img")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/img' is clicked on
+
+01-10-2024T19:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/img' is clicked on
+
+01-10-2024T19:29:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is present
+
+01-10-2024T19:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-10-2024T19:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is present
+
+01-10-2024T19:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+01-10-2024T19:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_FI-SW-01' is clicked on
+
+01-10-2024T19:29:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is present
+
+01-10-2024T19:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-10-2024T19:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is present
+
+01-10-2024T19:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is clicked on
+
+01-10-2024T19:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_EST-1' is clicked on
+
+01-10-2024T19:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+01-10-2024T19:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Add to Cart' is clicked on
+
+01-10-2024T19:29:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu"), 0): Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is present
+
+01-10-2024T19:29:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+01-10-2024T19:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is present
+
+01-10-2024T19:29:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu")): Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+01-10-2024T19:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateFishProduct/Page_JPetStore Demo/a_Return to Main Menu' is clicked on
+
+01-10-2024T19:30:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-10-2024T19:30:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-10-2024T19:28:11 - [TEST_SUITE][FAILED] - TS_ValidateFishProduct: Test Cases/TC_ValidateFishProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC_ValidateFishProduct.run(TC_ValidateFishProduct:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727791074035.run(TempTestSuite1727791074035.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Unable to create new session 
+Host info: host: 'testcloud-grid-distributor-798896fffd-n5vhz', ip: '10.50.15.96'
+Build info: version: '4.19.0', revision: '5f9cec8963'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.90', java.version: '17.0.10'
+Driver info: driver.version: unknown
+Build info: version: '4.19.0', revision: '5f9cec8963'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.90', java.version: '17.0.10'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'MOHAN', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=56, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=62, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=346, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=128, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=346, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=-1, classLoaderName=null}]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:566)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:345)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[01-10-2024T19:28:11 - [TEST_SUITE][FAILED] - TS_ValidateFishProduct: Test Cases/TC_ValidateFishProduct FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at TC_ValidateFishProduct.run(TC_ValidateFishProduct:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1727791074035.run(TempTestSuite1727791074035.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Could not start a new session. Could not start a new session. Unable to create new session 
+Host info: host: 'testcloud-grid-distributor-798896fffd-n5vhz', ip: '10.50.15.96'
+Build info: version: '4.19.0', revision: '5f9cec8963'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.90', java.version: '17.0.10'
+Driver info: driver.version: unknown
+Build info: version: '4.19.0', revision: '5f9cec8963'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.90', java.version: '17.0.10'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'MOHAN', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: CRemoteWebDriver
+remote stacktrace: [{fileName=SessionNotCreated.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.SessionNotCreated, lineNumber=56, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$TemplatizedRoute, lineNumber=192, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=RequiresSecretFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.grid.security.RequiresSecretFilter, lineNumber=62, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=346, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=NewSessionQueue.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.grid.sessionqueue.NewSessionQueue, lineNumber=128, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=handle, className=org.openqa.selenium.remote.http.Route$CombinedRoute, lineNumber=346, classLoaderName=app}, {fileName=Route.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Route, lineNumber=69, classLoaderName=app}, {fileName=AddWebDriverSpecHeaders.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.AddWebDriverSpecHeaders, lineNumber=35, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=ErrorFilter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$apply$0, className=org.openqa.selenium.remote.ErrorFilter, lineNumber=44, classLoaderName=app}, {fileName=Filter.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=execute, className=org.openqa.selenium.remote.http.Filter$1, lineNumber=63, classLoaderName=app}, {fileName=SeleniumHandler.java, moduleVersion=null, moduleName=null, nativeMethod=false, methodName=lambda$channelRead0$0, className=org.openqa.selenium.netty.server.SeleniumHandler, lineNumber=44, classLoaderName=app}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=call, className=java.util.concurrent.Executors$RunnableAdapter, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.FutureTask, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=runWorker, className=java.util.concurrent.ThreadPoolExecutor, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.util.concurrent.ThreadPoolExecutor$Worker, lineNumber=-1, classLoaderName=null}, {fileName=null, moduleVersion=17.0.10, moduleName=java.base, nativeMethod=false, methodName=run, className=java.lang.Thread, lineNumber=-1, classLoaderName=null}]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.<init>(CRemoteWebDriver.java:20)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewRemoteWebDriver(DriverFactory.java:566)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startRemoteBrowser(DriverFactory.java:345)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:271)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
